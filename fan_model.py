@@ -11,3 +11,5 @@ class Fan:
     def __init__(self, speed=SLOW, radius=5.0, color="blue", is_on=False):
         self.__speed = speed
         self.__radius = radius
+        self.__color = color
+        self.__is_on = is_on
