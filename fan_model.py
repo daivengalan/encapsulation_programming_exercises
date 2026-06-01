@@ -20,3 +20,7 @@ class Fan:
 
     def get_is_on(self):
         return self.__is_on
+
+    def set_speed(self, speed):
+        if speed in [Fan.SLOW, Fan.MEDIUM, Fan.FAST]:
+            self.__speed = speed
