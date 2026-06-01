@@ -24,3 +24,7 @@ class Fan:
     def set_speed(self, speed):
         if speed in [Fan.SLOW, Fan.MEDIUM, Fan.FAST]:
             self.__speed = speed
+
+    def set_radius(self, radius):
+        if radius > 0:
+            self.__radius = radius
