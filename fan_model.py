@@ -1,8 +1,3 @@
-"""
-Academic Activity: Fan Representation Implementation
-Enforcing strict Object-Oriented Programming and Encapsulation principles.
-"""
-
 class Fan:
     SLOW = 1
     MEDIUM = 2
@@ -16,3 +11,12 @@ class Fan:
 
     def get_speed(self):
         return self.__speed
+
+    def get_radius(self):
+        return self.__radius
+
+    def get_color(self):
+        return self.__color
+
+    def get_is_on(self):
+        return self.__is_on
