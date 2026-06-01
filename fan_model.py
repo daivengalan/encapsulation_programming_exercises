@@ -41,4 +41,10 @@ def run_test_fan_program():
     primary_fan.set_speed(Fan.FAST)
     primary_fan.set_radius(10.0)
     primary_fan.set_color("yellow")
-    primary_fan.set_is_on(True) 
+    primary_fan.set_is_on(True)
+
+    secondary_fan = Fan()
+    secondary_fan.set_speed(Fan.MEDIUM)
+    secondary_fan.set_radius(5.0)
+    secondary_fan.set_color("blue")
+    secondary_fan.set_is_on(False)
