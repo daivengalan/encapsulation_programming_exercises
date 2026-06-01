@@ -48,3 +48,19 @@ def run_test_fan_program():
     secondary_fan.set_radius(5.0)
     secondary_fan.set_color("blue")
     secondary_fan.set_is_on(False)
+
+    print("\n[Primary Fan Unit Status]")
+    print(f"Operational Speed : {primary_fan.get_speed()}")
+    print(f"Physical Radius   : {primary_fan.get_radius()} units")
+    print(f"Chassis Color     : {primary_fan.get_color()}")
+    print(f"Power State Active: {primary_fan.get_is_on()}")
+
+    print("\n[Secondary Fan Unit Status]")
+    print(f"Operational Speed : {secondary_fan.get_speed()}")
+    print(f"Physical Radius   : {secondary_fan.get_radius()} units")
+    print(f"Chassis Color     : {secondary_fan.get_color()}")
+    print(f"Power State Active: {secondary_fan.get_is_on()}")
+
+
+if __name__ == "__main__":
+    run_test_fan_program()
