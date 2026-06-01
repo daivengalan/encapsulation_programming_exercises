@@ -1,3 +1,4 @@
 class Pet:
     def __init__(self):
-        pass
+        self.__name = ""
+        self.__animal_type = ""
