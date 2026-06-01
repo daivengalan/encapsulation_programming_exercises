@@ -11,3 +11,4 @@ class Car:
 
 def execute_vehicle_simulation():
     print("=== RUNNING VEHICLE ACCELERATION PROFILES ===")
+    active_car = Car(2026, "Mustang GT")
