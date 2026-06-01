@@ -44,3 +44,7 @@ def execute_pet_registration_system():
     print(f"Registered Alias      : {registered_pet.get_name()}")
     print(f"Biological Family Type: {registered_pet.get_animal_type()}")
     print(f"Documented Lifespan   : {registered_pet.get_age()} years old")
+
+
+if __name__ == "__main__":
+    execute_pet_registration_system()
