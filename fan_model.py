@@ -28,3 +28,11 @@ class Fan:
     def set_radius(self, radius):
         if radius > 0:
             self.__radius = radius
+
+    def set_color(self, color):
+        if isinstance(color, str) and color.strip():
+            self.__color = color
+
+    def set_is_on(self, is_on):
+        if isinstance(is_on, bool):
+            self.__is_on = is_on
