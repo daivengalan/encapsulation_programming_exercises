@@ -17,3 +17,7 @@ def execute_vehicle_simulation():
     for counter in range(5):
         active_car.accelerate()
         print(f"Velocity Increment Event {counter + 1} -> Current Speed: {active_car.get_speed()} km/h")
+
+    print("\n--- Initiating Active Braking Series ---")
+    for counter in range(5):
+        pass    
