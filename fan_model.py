@@ -4,4 +4,6 @@ Enforcing strict Object-Oriented Programming and Encapsulation principles.
 """
 
 class Fan:
-    pass
+    SLOW = 1
+    MEDIUM = 2
+    FAST = 3
