@@ -12,3 +12,7 @@ class Pet:
 
 def execute_pet_registration_system():
     print("=== VETERINARY CLINIC REGISTRATION INTERFACE ===")
+    registered_pet = Pet()
+
+    input_name = input("Enter the official name of the pet: ").strip()
+    input_type = input("Enter the classification species (e.g., Dog, Cat, Bird): ").strip()
