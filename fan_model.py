@@ -7,3 +7,6 @@ class Fan:
     SLOW = 1
     MEDIUM = 2
     FAST = 3
+
+    def __init__(self, speed=SLOW, radius=5.0, color="blue", is_on=False):
+        pass
