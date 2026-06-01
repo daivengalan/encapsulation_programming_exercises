@@ -31,8 +31,16 @@ def execute_pet_registration_system():
     while True:
         try:
             input_age = int(input("Enter the chronological age of the animal: "))
-            if input_age >= 0:
-                break
+            if input_age >= 0: break
             print("Age tracking matrices must reflect non-negative numbers.")
         except ValueError:
             print("Invalid value. Please specify a correct integer representation.")
+
+    registered_pet.set_name(input_name)
+    registered_pet.set_animal_type(input_type)
+    registered_pet.set_age(input_age)
+
+    print("\n--- VERIFIED REGISTRATION METRICS ---")
+    print(f"Registered Alias      : {registered_pet.get_name()}")
+    print(f"Biological Family Type: {registered_pet.get_animal_type()}")
+    print(f"Documented Lifespan   : {registered_pet.get_age()} years old")
