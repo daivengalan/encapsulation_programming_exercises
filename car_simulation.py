@@ -20,4 +20,5 @@ def execute_vehicle_simulation():
 
     print("\n--- Initiating Active Braking Series ---")
     for counter in range(5):
-        pass    
+        active_car.brake()
+        print(f"Braking Deceleration Event {counter + 1} -> Current Speed: {active_car.get_speed()} km/h")
