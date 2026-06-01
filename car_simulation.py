@@ -22,3 +22,6 @@ def execute_vehicle_simulation():
     for counter in range(5):
         active_car.brake()
         print(f"Braking Deceleration Event {counter + 1} -> Current Speed: {active_car.get_speed()} km/h")
+
+if __name__ == "__main__":
+    execute_vehicle_simulation()
